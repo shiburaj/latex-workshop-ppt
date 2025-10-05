@@ -19,3 +19,7 @@ choco source add -n nexus-choco -s http://nexus.rcoe.co.in/repository/choco/ --p
 ```ps
 choco install -y texstudio
 ```
+
+## Report Templates
+- [**Synopsis Report Template**](https://github.com/shiburaj/latex-synopsis-report)
+- [**Project Report Template**](https://github.com/shiburaj/latex-project-report)
