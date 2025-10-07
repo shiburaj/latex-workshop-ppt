@@ -1,5 +1,8 @@
 # Introduction to LaTex PPT
-Basic introduction to LaTex and Sample Project Reports. [Click Here](https://github.com/shiburaj/latex-workshop-ppt/releases/download/v1/Final.pdf) to Download PPT
+Basic introduction to LaTex and Sample Project Reports. 
+
+- [Click Here](https://github.com/shiburaj/latex-workshop-ppt/releases/download/v1/Final.pdf) to Download PPT
+- [Click Here](https://github.com/shiburaj/latex-workshop-ppt/releases/download/v1/InstallTexStudio.exe) to Download TexStudio Installer
 
 ## Softwares for Latex
 - [**Overleaf**](https://www.overleaf.com/)
