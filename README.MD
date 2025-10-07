@@ -17,7 +17,7 @@ choco source add -n nexus-choco -s http://nexus.rcoe.co.in/repository/choco/ --p
 ```
 4. Install **TexStudio** using chocolatey
 ```ps
-choco install -y texstudio
+choco install -y miktex texstudio
 ```
 
 ## Report Templates
