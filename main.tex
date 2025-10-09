@@ -80,7 +80,7 @@
 			\includegraphics[width=0.5\linewidth]{overleaf.jpg}
 		\end{figure}
 		\centering
-		\href{https://www.overleaf.com}{\textbf{Overleaf}}\\
+		\textcolor{blue}{\href{https://www.overleaf.com}{\textbf{Overleaf}}}\\
 		Best Online Tex editor with a lot of Templates
 		\column{0.5\textwidth}
 		\begin{figure}
@@ -88,8 +88,8 @@
 			\includegraphics[width=0.5\linewidth]{texstudio.jpg}
 		\end{figure}
 		\centering
-		\href{https://www.texstudio.org}{\textbf{TexStudio}}\\
-		Opensource Offline IDE for Latex
+		\textcolor{blue}{\href{https://miktex.org/download}{\textbf{MikTex}} \& \href{https://www.texstudio.org}{\textbf{TexStudio}}}\\
+		Opensource Offline Latex Compiler and IDE
 	\end{columns}
 \end{frame}
 
@@ -103,7 +103,7 @@
 		\item Add local chocolatey server\\
 		\texttt{choco source add -n nexus-choco ...}
 		\item Install Textstudio using chocolatey\\
-		\texttt{choco install -y texstudio}
+		\texttt{choco install -y miktex texstudio}
 	\end{enumerate}
 	
 	\begin{center}
@@ -649,8 +649,10 @@ According to \cite{einstein}, energy and mass are related.
 
 \textbf{Code in main.tex:}
 \begin{verbatim}
-\bibliographystyle{plain}
-\bibliography{refs}
+\usepackage[backend=biber,style=ieee]{biblatex}  % preamble
+\addbibresource{references.bib}
+
+\printbibliography
 \end{verbatim}
 \end{frame}
 
