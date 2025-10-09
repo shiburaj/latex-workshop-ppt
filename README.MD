@@ -4,8 +4,11 @@ Basic introduction to LaTex and Sample Project Reports.
 - [Click Here](https://github.com/shiburaj/latex-workshop-ppt/releases/download/v1/Final.pdf) to Download PPT
 - [Click Here](https://github.com/shiburaj/latex-workshop-ppt/releases/download/v1/InstallTexStudio.exe) to Download TexStudio Installer
 
-## Softwares for Latex
+## Online Software for Latex
 - [**Overleaf**](https://www.overleaf.com/)
+
+## Offline Software for Latex
+- [**MikTex**](https://miktex.org/download)
 - [**TexStudio**](https://www.texstudio.org/)
 
 ## Steps to Install TexStudio in RCOE Lab Computers
